@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,IAAI,AAAC,CACD,UAAU,CAAE,UAAU,CACtB,SAAS,CAAE,KAAK,CACjB,AACD,AAAA,CAAC,CAAE,CAAC,AAAA,OAAO,CAAE,CAAC,AAAA,MAAM,AAAC,CACnB,UAAU,CAAE,OAAO,CACtB,AAED,AAAA,QAAQ,AAAA,CACJ,MAAM,CAAE,MAAM,CACjB,AAED,AAAA,WAAW,AAAC,CACR,SAAS,CAAE,MAAM,CACjB,MAAM,CAAE,MAAM,CACd,KAAK,CAAE,GAAG,CACb,AAED,AAAA,MAAM,AAAA,CACF,eAAe,CAAE,YAAY,CAChC,AAMD,AAAA,MAAM,AAAA,CACF,SAAS,CAAE,IAAI,CACf,KAAK,CCzBD,OAAO,CD0Bd",
+    "sources": [
+        "../scss/partials/reutilizables.scss",
+        "../scss/partials/variables.scss"
+    ],
+    "names": [],
+    "file": "reutilizables.min.css"
+}

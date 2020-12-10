@@ -1,0 +1,75 @@
+@import'./variables.scss';
+
+/** GLOBALES **/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.seccion{
+    margin: 3rem 0;
+}
+  
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.linea{
+    text-decoration: line-through;
+}
+
+%marginado {
+    margin: 1rem 0;
+}
+
+.punto{
+    font-size: 4rem;
+    color: $azul;
+}
+
+@mixin encabezados ($font, $rem){
+    font-family: $font;
+    font-size: $rem;
+    @extend %marginado;
+}
+
+%boton{
+  background-color: $verde;
+  display: block;
+  padding: 2rem 5rem;
+  color: $oscuro;
+  transition: all .3s ease-in-out;
+  border: 1px solid $verde;
+  margin: 2rem 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+@mixin nav-a ($direccion, $content, $margin){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $content;
+    margin: $margin;
+    text-decoration: none;
+    color: $oscuro;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@mixin flex ($content){
+    display: flex;
+    justify-content: $content;
+}
+
+@mixin grid ($fraccion, $gap){
+    display: grid;
+    grid-template-columns: $fraccion;
+    column-gap: $gap;
+}
