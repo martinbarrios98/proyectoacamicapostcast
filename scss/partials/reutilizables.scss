@@ -44,7 +44,6 @@ html {
   padding: 2rem 5rem;
   color: $oscuro;
   transition: all .3s ease-in-out;
-  border: 1px solid $verde;
   margin: 2rem 0;
   text-transform: uppercase;
   font-weight: bold;
@@ -56,11 +55,6 @@ html {
     display: flex;
     flex-direction: $direccion;
     justify-content: $content;
-    margin: $margin;
-    text-decoration: none;
-    color: $oscuro;
-    text-align: center;
-    text-transform: uppercase;
 }
 
 @mixin flex ($content){
